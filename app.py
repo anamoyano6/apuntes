@@ -80,6 +80,7 @@ def eliminarPersona(dni):
         return jsonify({'message':'Se elimino correctamente'}), 200
     return jsonify({'message': 'No se encontro a la persona'}), 404
 
+
        
 if __name__ == '__main__':
     with app.app_context(): 
